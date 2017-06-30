@@ -2,7 +2,7 @@
 Take PHP arrays and convert to SQL
 
 ## Purpose
-The purpose of this project is to convert PHP arrays to valid SQL. The goal is to make it as easy and simple as possible to write an array and convert it do SQL. Error checking has been kept to a minimum except for the most logical errors; i.e. trying to group by a column in a table that wasn't originally selected or joined. Some conventions have been used to standardize the order in which arrays are created and parsed. It supports sub-queries through recursion. It also supports prepared statement bindings through the usual `?` or `:{placeholder}`.
+The purpose of this project is to convert PHP arrays to valid SQL. The goal is to make it as easy and simple as possible to write an array and convert it to SQL. Error checking has been kept to a minimum except for the most logical errors; i.e. trying to group by a column in a table that wasn't originally selected or joined. Some conventions have been used to standardize the order in which arrays are created and parsed. It supports sub-queries through recursion. It also supports prepared statement bindings through the usual `?` or `:{placeholder}`.
 
 ### How to use
 You first need an array of SQL statements. There are many supported formats of the information, however, they all follow the same flow. You begin with an array:
